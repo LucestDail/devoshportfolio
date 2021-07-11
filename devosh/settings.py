@@ -58,7 +58,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'devoshportfolio.urls'
+ROOT_URLCONF = 'devosh.urls'
 
 TEMPLATES = [
     {
@@ -76,7 +76,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'devoshportfolio.wsgi.application'
+WSGI_APPLICATION = 'devosh.wsgi.application'
 
 
 # Database
@@ -93,7 +93,7 @@ DATABASES = {
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'devoshportfolio',
+        'NAME': 'devosh',
         'USER': 'admin',
         'PASSWORD': '1234',
         'HOST': 'localhost',
