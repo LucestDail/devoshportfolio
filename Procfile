@@ -1,1 +1,1 @@
-web: gunicorn devoshportfolio.wsgi --log-file -
+web: gunicorn devosh.wsgi --log-file -
