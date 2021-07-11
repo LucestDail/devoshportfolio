@@ -1,0 +1,22 @@
+{% extends 'blog_master.html' %}
+{% block content %}
+<h3> 글 보는 곳</h3>
+<table>
+    <tr>
+        <th>title</th>
+        <td>{{post.title}}</td>
+    </tr>
+    <tr>
+        <th>topic</th>
+        <td>{{post.topic}}</td>
+    </tr>
+    <tr>
+        <th>subtitle1</th>
+        <td>{{post.subtitle1}}</td>
+    </tr>
+    <tr>
+        <th>img</th>
+        <td><img src="{{post.subimg1.url}}" alt="" height="400"></td>
+    </tr>
+</table>
+{% endblock %}

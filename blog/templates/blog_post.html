@@ -1,0 +1,15 @@
+{% extends 'blog_master.html' %}
+{% block content %}
+<table class = "table">
+    <tr>
+        <th>title</th>
+        <th>topic</th>
+    </tr>
+{% for list in postlist %}
+    <tr>
+        <td><a href="/blog/{{list.pk}}/">{{list.title}}<a/></td>
+        <td><a href="/blog/{{list.pk}}/">{{list.topic}}<a/></td>
+    </tr>
+{% endfor %}
+</table>
+{% endblock %}

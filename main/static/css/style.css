@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+html, body { width: 100%; height: 100%; }
+
+p.result1,p.result2{ display: inline-block; font-size:90px; height:72px; line-height: 72px; border-right: 3px solid #fff; padding-right: 6px; box-sizing: border-box; padding:0; margin:15px; }
+p.cursor {animation: cursor 1s infinite;
+font-size: 5vw;}
+
+ @keyframes cursor{ 
+      0%{border-right: 1px solid #fff} 
+      50%{border-right: 1px solid #000} 
+      100%{border-right: 1px solid #fff} 
+    }
+
+.container{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.titlecon{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 30%;
+    text-align: center;
+}
+
+#titletype{
+    text-align: center
+}
+
+.contentcon a:hover{
+    text-decoration: underline;
+}
+
+.contentcon .icon{
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size:40px;
+    width: 2em;
+    line-height: 2em;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #DDDDDD;
+    color:#FFFFFF;
+}
+
+.contentcon .text{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.contentcon {
+    display: inline-block;
+    padding: 10px;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

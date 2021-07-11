@@ -1,0 +1,1 @@
+web: gunicorn devosh.wsgi --log-file -
